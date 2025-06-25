@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Juego Memoria</title>
+    <link rel="stylesheet" type="text/css" href="index.css">
+</head>
+
+<body onload="animate()">
+    <div class="content-game">
+        <center>
+            <h2>Intenta encontrar la bolita blanca</h2>
+        </center>
+        <div class="content-circles">
+            <div class="circle">
+                <div class="obj" id="objetive"></div>
+                <div class="draw-circle"></div>
+            </div>
+            <div class="circle">
+                <div class="draw-circle"></div>
+            </div>
+            <div class="circle">
+                <div class="draw-circle"></div>
+            </div>
+        </div>
+        <center>
+            <button id="idbtn" onclick="process_begin()" style="display: none;">Nuevo juego</button>
+        </center>
+    </div>
+    <script src="script.js"></script>
+
+</body>
+
+</html>
